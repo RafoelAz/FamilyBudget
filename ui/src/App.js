@@ -3,7 +3,8 @@ import {
   Switch,
   Route
 } from 'react-router-dom';
-import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.module.css';
 
 import { LandingPage } from './pages/landing.page';
 import { DashboardPage } from './pages/dashboard.page';
