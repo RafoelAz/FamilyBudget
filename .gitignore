@@ -6,7 +6,7 @@ ui/.pnp
 .pnp.js
 
 # testing
-ui//coverage
+ui/coverage
 
 # production
 ui/build
