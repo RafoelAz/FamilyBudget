@@ -5,19 +5,20 @@ export function IncomePage() {
     <div>
       <body>
         <header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
+          <div>
+            <img src="logo.png" alt="qq" />
+          </div>
           <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="#/">
             Family Budget:
           </a>
-          <button
-            class="navbar-toggler position-absolute d-md-none collapsed"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#sidebarMenu"
-            aria-controls="sidebarMenu"
-            aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon" />
-          </button>
+          <div>
+            <img
+              src="https://st.depositphotos.com/2711989/3513/v/600/depositphotos_35135847-stock-illustration-british-union-jack-flag.jpg"
+              alt="qqq"
+              width="30px"
+              height="18px"
+            />
+          </div>
           <ul class="navbar-nav px-3">
             <li class="nav-item text-nowrap">
               <a class="nav-link" href="#/">
@@ -33,62 +34,29 @@ export function IncomePage() {
               class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
               <div class="position-sticky pt-3">
                 <ul class="nav flex-column">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#/">
-                      <span data-feather="home" />
-                      <button type="button" class="btn btn-dark">
-                        Cash income
-                      </button>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#/">
-                      <span data-feather="file" />
-                      <button type="button" class="btn btn-light">
-                        Cash expenses
-                      </button>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#/">
-                      <span data-feather="shopping-cart" />
-                      <button type="button" class="btn btn-light">
-                        Objectives
-                      </button>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#/">
-                      <span data-feather="users" />
-                      <button type="button" class="btn btn-light">
-                        Statistics
-                      </button>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#/">
-                      <span data-feather="bar-chart-2" />
-                      <button type="button" class="btn btn-light">
-                        Piggy bank
-                      </button>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#/">
-                      <span data-feather="layers" />
-                      <button type="button" class="btn btn-light">
-                        Reminders
-                      </button>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#/">
-                      <span data-feather="settings" />
-                      <button type="button" class="btn btn-light">
-                        Settings
-                      </button>
-                    </a>
-                  </li>
+                  <div class="d-grid gap-2">
+                    <button class="btn btn-dark" type="button">
+                      Cash income
+                    </button>
+                    <button class="btn btn-light" type="button">
+                      Cash expenses
+                    </button>
+                    <button class="btn btn-light" type="button">
+                      Objectives
+                    </button>
+                    <button class="btn btn-light" type="button">
+                      Statistics
+                    </button>
+                    <button class="btn btn-light" type="button">
+                      Piggy bank
+                    </button>
+                    <button class="btn btn-light" type="button">
+                      Reminders
+                    </button>
+                    <button class="btn btn-light" type="button">
+                      Settings
+                    </button>
+                  </div>
                 </ul>
               </div>
             </nav>
