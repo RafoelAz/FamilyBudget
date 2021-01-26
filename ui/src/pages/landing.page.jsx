@@ -1,5 +1,7 @@
 import './landing.page.css';
+import { Header } from '../components/header';
+import { Nav } from '../components/nav';
 
 export function LandingPage() {
-  return <h1>Landing Page</h1>;
+  return <p>Landing page</p>;
 }
