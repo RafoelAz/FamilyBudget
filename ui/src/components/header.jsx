@@ -1,13 +1,14 @@
 import './header.css';
+import logo from './logo.png';
 
 function Header() {
   return (
     <header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
       <div>
-        <img src="pages\logo.png" alt="qq" />
+        <img src={logo} alt={'logo'} />
       </div>
       <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="#/">
-        Family Budget:
+        Family Budget
       </a>
       <div>
         <img
