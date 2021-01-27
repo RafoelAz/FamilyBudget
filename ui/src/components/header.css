@@ -21,7 +21,7 @@
 
 .logo-name {
   display: flex;
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 .flexbox-container-center {
@@ -34,10 +34,11 @@
 .container-coin-img {
   height: 48px;
   width: 118px;
-  margin-top: 5px;
+  margin: 5px 0px 0px 0px;
 }
 
 .container-data {
+  margin: 0px 0px 0px 0px;
 }
 
 .flexbox-container-end {
@@ -51,4 +52,8 @@
   height: 17px;
   width: 35px;
   margin-top: 20px;
+}
+
+.nav-link {
+  margin-top: 15px;
 }
