@@ -6,30 +6,30 @@ import language from './language-eng.png';
 function Header() {
   return (
     <header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
-      <div className="flexbox-container">
-        <div className="flexbox-container-start">
-          <div className="container-logo">
-            <img className="container-logo-img" src={logo} alt={'logo'} />
+      <div className="navbar-container">
+        <div className="container__start">
+          <div className="container__logo">
+            <img className="container__logoImg" src={logo} alt={'logo'} />
           </div>
           <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="#/">
-            <p className="logo-name"> Family Budget</p>
+            <p className="container__logoText"> Family Budget</p>
           </a>
         </div>
-        <div className="flexbox-container-center">
-          <div className="container-coin">
-            <img className="container-coin-img" src={coin} alt={'coin'} />
+        <div className="container__center">
+          <div className="container__coin">
+            <img className="container__coinImg" src={coin} alt={'coin'} />
           </div>
-          <div className="container-data">
+          <div className="container__data">
             <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="#/">
               <p className="data"> 16 FEB 2021</p>
             </a>
           </div>
         </div>
 
-        <div className="flexbox-container-end">
-          <div className="container-language">
+        <div className="container__end">
+          <div className="container__language">
             <img
-              className="container-language-img"
+              className="container__languageImg"
               src={language}
               alt={'language'}
             />
