@@ -4,9 +4,14 @@ import { Nav } from '../components/nav';
 
 export function DashboardPage() {
   return (
-    <div>
+    <body>
       <Header />
-      <Nav />
-    </div>
+
+      <div className="container-fluid">
+        <div className="row">
+          <Nav />
+        </div>
+      </div>
+    </body>
   );
 }
