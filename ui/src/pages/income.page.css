@@ -1,3 +1,4 @@
-.container-main {
-  color: red;
+.row {
+  display: flex;
+  flex-wrap: nowrap;
 }
