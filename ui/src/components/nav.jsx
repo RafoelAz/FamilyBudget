@@ -6,6 +6,14 @@ function Nav() {
     <aside className="sidebar-navigation col-md-3 col-lg-2 d-md-block bg-light collapse menu">
       <nav className="list-group">
         <NavLink
+          to="/dashboard"
+          className="list-group-item list-group-item-action"
+          activeClassName="active">
+          <span data-feather="home" />
+          Dashboard
+        </NavLink>
+
+        <NavLink
           to="/income"
           className="list-group-item list-group-item-action"
           activeClassName="active">

@@ -1,19 +1,5 @@
-import './dashboard.page.css';
-import { Header } from '../components/header';
-import { Nav } from '../components/nav';
-import { Main } from '../components/main';
+import React from 'react';
 
 export function DashboardPage() {
-  return (
-    <>
-      <Header />
-
-      <div className="container-fluid">
-        <div className="row">
-          <Nav />
-          <Main />
-        </div>
-      </div>
-    </>
-  );
+  return <h1>Dashboard Page</h1>;
 }
