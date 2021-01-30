@@ -1,56 +1,66 @@
 import './nav.css';
+import { NavLink } from 'react-router-dom';
 
 function Nav() {
   return (
-    <aside
-      id="sidebarMenu"
-      className="sidebar col-md-3 col-lg-2 d-md-block bg-light collapse menu">
-      <div className="position-sticky menu__position">
-        <ul className="nav flex-column menu__nav">
-          <li className="nav-item">
-            <a className="nav-link active" aria-current="page" href="#/">
-              <span data-feather="home" />
-              Cash income
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="#/">
-              <span data-feather="file" />
-              Cash expenses
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="#/">
-              <span data-feather="shopping-cart" />
-              Objectives
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="#/">
-              <span data-feather="users" />
-              Statistics
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="#/">
-              <span data-feather="bar-chart-2" />
-              Piggy bank
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="#/">
-              <span data-feather="layers" />
-              Reminders
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="#/">
-              <span data-feather="layers" />
-              Settings
-            </a>
-          </li>
-        </ul>
-      </div>
+    <aside className="sidebar-navigation col-md-3 col-lg-2 d-md-block bg-light collapse menu">
+      <nav className="list-group">
+        <NavLink
+          to="/income"
+          className="list-group-item list-group-item-action"
+          activeClassName="active">
+          <span data-feather="home" />
+          Cash income
+        </NavLink>
+
+        <NavLink
+          to="/cash-expenses"
+          className="list-group-item list-group-item-action"
+          activeClassName="active">
+          <span data-feather="file" />
+          Cash expenses
+        </NavLink>
+
+        <NavLink
+          to="/objectives"
+          className="list-group-item list-group-item-action"
+          activeClassName="active">
+          <span data-feather="shopping-cart" />
+          Objectives
+        </NavLink>
+
+        <NavLink
+          to="/statistics"
+          className="list-group-item list-group-item-action"
+          activeClassName="active">
+          <span data-feather="users" />
+          Statistics
+        </NavLink>
+
+        <NavLink
+          to="/piggy-bank"
+          className="list-group-item list-group-item-action"
+          activeClassName="active">
+          <span data-feather="bar-chart-2" />
+          Piggy bank
+        </NavLink>
+
+        <NavLink
+          to="/reminders"
+          className="list-group-item list-group-item-action"
+          activeClassName="active">
+          <span data-feather="layers" />
+          Reminders
+        </NavLink>
+
+        <NavLink
+          to="/settings"
+          className="list-group-item list-group-item-action"
+          activeClassName="active">
+          <span data-feather="layers" />
+          Settings
+        </NavLink>
+      </nav>
     </aside>
   );
 }
