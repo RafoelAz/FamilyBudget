@@ -5,22 +5,22 @@ import language from './language-eng.png';
 
 function Header() {
   return (
-    <header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
+    <header className="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
       <div className="navbar-container">
         <div className="container__start">
           <div className="container__logo">
-            <img className="container__logoImg" src={logo} alt={'logo'} />
+            <img className="container__logo-img" src={logo} alt={'logo'} />
           </div>
-          <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="#/">
-            <p className="container__logoText"> Family Budget</p>
+          <a className="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="#/">
+            <p className="container__logo-text"> Family Budget</p>
           </a>
         </div>
         <div className="container__center">
           <div className="container__coin">
-            <img className="container__coinImg" src={coin} alt={'coin'} />
+            <img className="container__coin-img" src={coin} alt={'coin'} />
           </div>
           <div className="container__data">
-            <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="#/">
+            <a className="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="#/">
               <p className="data"> 16 FEB 2021</p>
             </a>
           </div>
@@ -29,14 +29,14 @@ function Header() {
         <div className="container__end">
           <div className="container__language">
             <img
-              className="container__languageImg"
+              className="container__language-img"
               src={language}
               alt={'language'}
             />
           </div>
-          <ul class="navbar-nav px-3">
-            <li class="nav-item text-nowrap">
-              <a class="nav-link" href="#/">
+          <ul className="navbar-nav px-3">
+            <li className="nav-item text-nowrap">
+              <a className="nav-link" href="#/">
                 Sign out
               </a>
             </li>
