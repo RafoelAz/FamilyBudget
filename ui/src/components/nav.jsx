@@ -2,9 +2,9 @@ import './nav.css';
 
 function Nav() {
   return (
-    <nav
+    <aside
       id="sidebarMenu"
-      className="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse menu">
+      className="sidebar col-md-3 col-lg-2 d-md-block bg-light collapse menu">
       <div className="position-sticky menu__position">
         <ul className="nav flex-column menu__nav">
           <li className="nav-item">
@@ -51,7 +51,7 @@ function Nav() {
           </li>
         </ul>
       </div>
-    </nav>
+    </aside>
   );
 }
 

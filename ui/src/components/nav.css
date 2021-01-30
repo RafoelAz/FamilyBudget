@@ -1,21 +1,21 @@
-.menu {
+.sidebar.menu {
   margin: 0 !important;
   padding: 0 !important;
   width: 200px;
   border-right: 3.5px solid black;
 }
 
-.menu .menu__position {
+.sidebar.menu .menu__position {
   margin: 0;
   padding: 0;
 }
 
-.menu .menu__nav {
+.sidebar.menu .menu__nav {
   margin: 0;
   padding: 0;
 }
 
-.menu li {
+.sidebar.menu li {
   border-bottom: 3.5px solid black;
   height: 50px;
   display: flex;
@@ -23,7 +23,7 @@
   line-height: 27px;
 }
 
-.menu a {
+.sidebar.menu a {
   color: black;
   margin: 0;
 }

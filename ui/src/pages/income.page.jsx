@@ -5,7 +5,7 @@ import { Main } from '../components/main';
 
 export function IncomePage() {
   return (
-    <>
+    <div className="income-page">
       <Header />
 
       <div className="container-fluid">
@@ -14,6 +14,6 @@ export function IncomePage() {
           <Main />
         </div>
       </div>
-    </>
+    </div>
   );
 }
