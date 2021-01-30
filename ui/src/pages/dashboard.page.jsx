@@ -5,7 +5,7 @@ import { Main } from '../components/main';
 
 export function DashboardPage() {
   return (
-    <div>
+    <>
       <Header />
 
       <div className="container-fluid">
@@ -14,6 +14,6 @@ export function DashboardPage() {
           <Main />
         </div>
       </div>
-    </div>
+    </>
   );
 }
