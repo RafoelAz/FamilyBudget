@@ -1,0 +1,13 @@
+.header__logo {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.header__flag {
+  width: 40px;
+  margin-right: 20px;
+}
+
+.header__sign-in-btn {
+  text-decoration: none;
+}
