@@ -1,4 +1,7 @@
-.income-page .row {
-  display: flex;
-  flex-wrap: nowrap;
+.container__add {
+  padding: 40px 0px 0px 300px;
+}
+
+.main__add {
+  width: 100px;
 }
