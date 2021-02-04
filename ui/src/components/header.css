@@ -1,19 +1,6 @@
-.header__brand {
-  display: flex;
-}
-
 .header__logo {
   width: 30px;
   margin-right: 10px;
-}
-
-.navbar-brand {
-  margin-right: 5px;
-}
-
-.header__user {
-  color: white;
-  padding-top: 8px;
 }
 
 .header__flag {
@@ -23,30 +10,4 @@
 
 .header__sign-in-btn {
   text-decoration: none;
-}
-
-.header__date {
-  margin-right: 300px;
-  text-decoration: none;
-  color: white;
-}
-
-.header__coin {
-  display: flex;
-}
-
-.header__currency {
-  color: white;
-  text-decoration: none;
-  padding-left: 3px;
-  margin-top: 0px;
-  padding-top: 9px;
-}
-
-.header__coin-img {
-  margin-right: 12px;
-}
-.header__coin-sum {
-  color: white;
-  padding-top: 7px;
 }
