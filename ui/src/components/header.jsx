@@ -16,11 +16,11 @@ function Header() {
           </a>
 
           <div className="header__center">
-            <a href="/">
+            <a href="/piggy-bank">
               <img src={coin} alt="user cash" className="header__coin" />
               <span className="coin__value">2000$</span>
             </a>
-            <a href="/" className="header__date">
+            <a href="/reminders" className="header__date">
               {currDate}
             </a>
           </div>
