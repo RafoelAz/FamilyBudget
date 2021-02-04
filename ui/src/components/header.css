@@ -11,3 +11,24 @@
 .header__sign-in-btn {
   text-decoration: none;
 }
+
+.header__coin {
+  width: 41px;
+}
+
+.coin__value {
+  color: white;
+  text-decoration: underline;
+  margin-right: 200px;
+}
+
+.header__date {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  margin-left: 200px;
+}
+.header__date:hover {
+  text-decoration: none;
+  color: white;
+}
