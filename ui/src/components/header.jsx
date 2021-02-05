@@ -2,6 +2,7 @@ import './header.css';
 import logo from './logo.png';
 import language from './language-eng.png';
 import coin from './coin.png';
+import { NavLink } from 'react-router-dom';
 
 const currDate = new Date().toLocaleDateString();
 
@@ -16,13 +17,13 @@ function Header() {
           </a>
 
           <div className="header__center">
-            <a href="/piggy-bank">
+            <NavLink to="/piggy-bank">
               <img src={coin} alt="user cash" className="header__coin" />
               <span className="coin__value">2000$</span>
-            </a>
-            <a href="/reminders" className="header__date">
+            </NavLink>
+            <NavLink to="/reminders" className="header__date">
               {currDate}
-            </a>
+            </NavLink>
           </div>
 
           <div className="header__aside">
