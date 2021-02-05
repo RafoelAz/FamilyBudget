@@ -1,10 +1,10 @@
-import { Header } from "../components/header";
-import mainPigi from "./landingImg/mainPigi.png";
-import car from "./landingImg/car.png";
-import ring from "./landingImg/ring.png";
-import airplane from "./landingImg/airplane.png";
-import house from "./landingImg/house.png";
-import "./landing.page.css";
+import { Header } from '../components/header';
+import mainPigi from './landingImg/mainPigi.png';
+import car from './landingImg/car.png';
+import ring from './landingImg/ring.png';
+import airplane from './landingImg/airplane.png';
+import house from './landingImg/house.png';
+import './landing.page.css';
 
 export function LandingPage() {
   return (
