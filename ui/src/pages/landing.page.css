@@ -1,0 +1,16 @@
+.landing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.landing-container {
+  padding-top: 130px;
+}
+.media-body h2 {
+  text-align: center;
+}
+.media {
+  display: flex;
+  flex-wrap: nowrap;
+}
