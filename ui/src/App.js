@@ -19,7 +19,6 @@ function App() {
         <Route exact path="/">
           <LandingPage />
         </Route>
-
         <Layout>
           <Route path="/dashboard">
             <DashboardPage />
