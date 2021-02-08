@@ -1,6 +1,7 @@
-import './header.css';
-import logo from './logo.png';
-import language from './language-eng.png';
+import "./header.css";
+import logo from "./logo.png";
+import language from "./language-eng.png";
+import { SignIn } from "./sign-in";
 
 function Header() {
   return (
@@ -11,14 +12,23 @@ function Header() {
             <img src={logo} alt="Family Budget Logo" className="header__logo" />
             Family Budget
           </a>
-
           <div className="header__aside">
             <a href="/">
-              <img src={language} alt="Change language" className="header__flag" />
+              <img
+                src={language}
+                alt="Change language"
+                className="header__flag"
+              />
             </a>
-            <button className="btn btn-link text-white header__sign-in-btn">
+            <button
+              type="button"
+              data-bs-toggle="modal"
+              className="btn text-white header__sign-in-btn"
+              data-bs-target="#exampleModal"
+            >
               Sign In
             </button>
+            <SignIn />
           </div>
         </div>
       </nav>
