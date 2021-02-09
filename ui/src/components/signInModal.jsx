@@ -1,6 +1,6 @@
 import React from "react";
 
-export function SignIn() {
+export function SignInModal() {
   return (
     <div
       className="modal fade"
@@ -47,7 +47,7 @@ export function SignIn() {
                   aria-controls="profile"
                   aria-selected="false"
                 >
-                  SIGN IN
+                  Register
                 </a>
               </li>
             </ul>

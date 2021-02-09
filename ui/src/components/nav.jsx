@@ -1,5 +1,5 @@
-import './nav.css';
-import { NavLink } from 'react-router-dom';
+import "./nav.css";
+import { NavLink } from "react-router-dom";
 
 function Nav() {
   return (
@@ -8,7 +8,8 @@ function Nav() {
         <NavLink
           to="/dashboard"
           className="list-group-item list-group-item-action"
-          activeClassName="active">
+          activeClassName="active"
+        >
           <span data-feather="home" />
           Dashboard
         </NavLink>
@@ -16,7 +17,8 @@ function Nav() {
         <NavLink
           to="/income"
           className="list-group-item list-group-item-action"
-          activeClassName="active">
+          activeClassName="active"
+        >
           <span data-feather="home" />
           Cash income
         </NavLink>
@@ -24,7 +26,8 @@ function Nav() {
         <NavLink
           to="/cash-expenses"
           className="list-group-item list-group-item-action"
-          activeClassName="active">
+          activeClassName="active"
+        >
           <span data-feather="file" />
           Cash expenses
         </NavLink>
@@ -32,7 +35,8 @@ function Nav() {
         <NavLink
           to="/objectives"
           className="list-group-item list-group-item-action"
-          activeClassName="active">
+          activeClassName="active"
+        >
           <span data-feather="shopping-cart" />
           Objectives
         </NavLink>
@@ -40,7 +44,8 @@ function Nav() {
         <NavLink
           to="/statistics"
           className="list-group-item list-group-item-action"
-          activeClassName="active">
+          activeClassName="active"
+        >
           <span data-feather="users" />
           Statistics
         </NavLink>
@@ -48,7 +53,8 @@ function Nav() {
         <NavLink
           to="/piggy-bank"
           className="list-group-item list-group-item-action"
-          activeClassName="active">
+          activeClassName="active"
+        >
           <span data-feather="bar-chart-2" />
           Piggy bank
         </NavLink>
@@ -56,7 +62,8 @@ function Nav() {
         <NavLink
           to="/reminders"
           className="list-group-item list-group-item-action"
-          activeClassName="active">
+          activeClassName="active"
+        >
           <span data-feather="layers" />
           Reminders
         </NavLink>
@@ -64,7 +71,8 @@ function Nav() {
         <NavLink
           to="/settings"
           className="list-group-item list-group-item-action"
-          activeClassName="active">
+          activeClassName="active"
+        >
           <span data-feather="layers" />
           Settings
         </NavLink>

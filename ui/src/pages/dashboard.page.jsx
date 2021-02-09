@@ -1,5 +1,4 @@
-import React from 'react';
-
+import React from "react";
 export function DashboardPage() {
   return <h1>Dashboard Page</h1>;
 }

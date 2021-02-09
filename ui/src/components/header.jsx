@@ -1,7 +1,7 @@
 import "./header.css";
 import logo from "./logo.png";
 import language from "./language-eng.png";
-import { SignIn } from "./sign-in";
+import { SignInModal } from "./signInModal";
 
 function Header() {
   return (
@@ -28,7 +28,7 @@ function Header() {
             >
               Sign In
             </button>
-            <SignIn />
+            <SignInModal />
           </div>
         </div>
       </nav>
