@@ -1,6 +1,10 @@
 import './header.css';
 import logo from './logo.png';
 import language from './language-eng.png';
+import coin from './coin.png';
+import { Link } from 'react-router-dom';
+
+const currDate = new Date().toLocaleDateString();
 
 function Header() {
   return (
@@ -11,6 +15,16 @@ function Header() {
             <img src={logo} alt="Family Budget Logo" className="header__logo" />
             Family Budget
           </a>
+
+          <div className="header__center">
+            <Link to="/piggy-bank">
+              <img src={coin} alt="user cash" className="header__coin" />
+              <span className="coin__value">2000$</span>
+            </Link>
+            <Link to="/reminders" className="header__date">
+              {currDate}
+            </Link>
+          </div>
 
           <div className="header__aside">
             <a href="/">

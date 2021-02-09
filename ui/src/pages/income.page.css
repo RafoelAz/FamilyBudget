@@ -1,4 +1,44 @@
-.income-page .row {
+.income__list {
+  list-style: none;
+}
+
+.main__container {
   display: flex;
+  align-items: center;
   flex-wrap: nowrap;
+  height: 100%;
+}
+
+.container__user {
+  padding-top: 20px;
+  width: 40%;
+  height: 40%;
+}
+
+.user__card {
+  width: 12rem;
+}
+
+.user__title {
+  text-align: center;
+}
+
+.container__money-earned {
+  display: flex;
+  width: 40%;
+  height: 40%;
+}
+
+.money-earned {
+  padding-right: 10px;
+}
+
+.container__add-money {
+  display: flex;
+  width: 40%;
+  height: 40%;
+}
+
+.container__add {
+  padding: 90px 0px 0px 50px;
 }
