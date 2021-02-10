@@ -1,16 +1,16 @@
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import './App.css';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import "./App.css";
 
-import { LandingPage } from './pages/landing.page';
-import { DashboardPage } from './pages/dashboard.page';
-import { IncomePage } from './pages/income.page';
-import { CashExpensesPage } from './pages/cash-expenses.page';
-import { ObjectivesPage } from './pages/objectives.page';
-import { StatisticsPage } from './pages/statistics.page';
-import { PiggyBankPage } from './pages/piggy-bank.page';
-import { RemindersPage } from './pages/reminders.page';
-import { SettingsPage } from './pages/settings.page';
-import { Layout } from './components/layout';
+import { LandingPage } from "./pages/landing.page";
+import { DashboardPage } from "./pages/dashboard.page";
+import { IncomePage } from "./pages/income.page";
+import { CashExpensesPage } from "./pages/cash-expenses.page";
+import { ObjectivesPage } from "./pages/objectives.page";
+import { StatisticsPage } from "./pages/statistics.page";
+import { PiggyBankPage } from "./pages/piggy-bank.page";
+import { RemindersPage } from "./pages/reminders.page";
+import { SettingsPage } from "./pages/settings.page";
+import { Layout } from "./components/layout";
 
 function App() {
   return (

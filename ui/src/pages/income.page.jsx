@@ -1,7 +1,7 @@
-import React from 'react';
-import './income.page.css';
-import boy from './IncomePageImg/icon-boy.png';
-import girl from './IncomePageImg/icon-girl.png';
+import React from "react";
+import "./income.page.css";
+import boy from "./IncomePageImg/icon-boy.png";
+import girl from "./IncomePageImg/icon-girl.png";
 
 export function IncomePage() {
   return (

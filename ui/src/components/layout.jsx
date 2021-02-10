@@ -1,7 +1,7 @@
-import React from 'react';
+import React from "react";
 
-import { Header } from './header';
-import { Nav } from './nav';
+import { Header } from "./header";
+import { Nav } from "./nav";
 
 export function Layout(props) {
   return (
