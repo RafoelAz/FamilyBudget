@@ -1,8 +1,9 @@
-import './header.css';
-import logo from './logo.png';
-import language from './language-eng.png';
-import coin from './coin.png';
-import { Link } from 'react-router-dom';
+import "./header.css";
+import logo from "./logo.png";
+import language from "./language-eng.png";
+import coin from "./coin.png";
+import { Link } from "react-router-dom";
+import SignInModal from "./signInModal";
 
 const currDate = new Date().toLocaleDateString();
 
@@ -28,11 +29,21 @@ function Header() {
 
           <div className="header__aside">
             <a href="/">
-              <img src={language} alt="Change language" className="header__flag" />
+              <img
+                src={language}
+                alt="Change language"
+                className="header__flag"
+              />
             </a>
-            <button className="btn btn-link text-white header__sign-in-btn">
+            <button
+              className="btn btn-link text-white header__sign-in-btn"
+              type="button"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            >
               Sign In
             </button>
+            <SignInModal />
           </div>
         </div>
       </nav>
