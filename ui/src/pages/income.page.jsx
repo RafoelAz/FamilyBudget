@@ -88,7 +88,7 @@ export function IncomePage() {
           </li>
           <li>
             <div className="container__add">
-              <button type="button" class="btn btn-primary">
+              <button type="button" className="btn btn-primary">
                 Add user
               </button>
             </div>
