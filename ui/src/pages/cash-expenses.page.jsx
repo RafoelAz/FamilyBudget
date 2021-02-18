@@ -45,7 +45,7 @@ export class CashExpensesPage extends React.Component {
   render() {
     return (
       <>
-        <h1>Objective Page</h1>
+        <h1>Cash Expenses</h1>
         <br />
         <br />
         <button onClick={this.increment}>+ 100$</button>
