@@ -1,10 +1,10 @@
 import { combineReducers } from 'redux';
-import CarsReducerc from './car';
-import ActiveCar from './car-active';
+import UsersReducerc from './user';
+import ActiveUser from './user-active';
 
 const allReducers = combineReducers({
-  cars: CarsReducerc,
-  active: ActiveCar,
+  users: UsersReducerc,
+  active: ActiveUser,
 });
 
 export default allReducers;

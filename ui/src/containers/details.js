@@ -3,15 +3,19 @@ import { connect } from 'react-redux';
 
 class Details extends Component {
   render() {
-    if (!this.props.car) {
-      return <p>Выберете автомобиль</p>;
+    if (!this.props.user) {
+      return <p>Select user to view details</p>;
     }
     return (
       <div>
-        <h2>{this.props.car.name}</h2>
-        <p>{this.props.car.desc}</p>
+        <h2>{this.props.user.name}</h2>
+        <p>Registration date :{this.props.user.data}</p>
         <p>
-          Скорость:{this.props.car.speed}, вес:{this.props.car.weight}
+          Earned money in this month: <b>{this.props.user.month}$</b>
+          <br />
+          Earned money in a year: <b>{this.props.user.year}$</b>
+          <br />
+          Total money: <b>{this.props.user.total_money}$</b>
         </p>
       </div>
     );
@@ -20,7 +24,7 @@ class Details extends Component {
 
 function mapStateToProps(state) {
   return {
-    car: state.active,
+    user: state.active,
   };
 }
 

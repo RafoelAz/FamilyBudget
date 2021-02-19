@@ -1,7 +1,6 @@
-export const select = (car) => {
-  console.log('Car:', car.name);
+export const select = (user) => {
   return {
-    type: 'CAR_SELECTED',
-    payload: car,
+    type: 'USER_SELECTED',
+    payload: user,
   };
 };
