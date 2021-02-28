@@ -24,7 +24,7 @@ class Details extends Component {
 
 function mapStateToProps(state) {
   return {
-    user: state.active,
+    user: state.activeUser,
   };
 }
 

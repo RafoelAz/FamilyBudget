@@ -1,5 +1,5 @@
 import React from 'react';
-import UsersList from '../containers/users-list';
+import { UsersList } from '../containers/users-list';
 import Details from '../containers/details';
 
 export function StatisticsPage() {

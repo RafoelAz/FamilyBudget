@@ -15,6 +15,10 @@ const initialState = [
     data: '16.02.2020',
     total_money: 50000,
   },
+  {
+    id: 3,
+    name: 'Alex',
+  },
 ];
 
 export default function usersReducer(state = initialState, action) {
