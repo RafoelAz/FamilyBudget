@@ -2,8 +2,9 @@ import React, { Component } from 'react';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import { select } from '../actions/index';
-/* eslint-disable */
+
 class UsersList extends Component {
+  /* eslint-disable */
   showList() {
     return this.props.users.map((user) => {
       return (
