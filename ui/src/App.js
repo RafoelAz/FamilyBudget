@@ -12,8 +12,6 @@ import { RemindersPage } from './pages/reminders.page';
 import { SettingsPage } from './pages/settings.page';
 import { Layout } from './components/layout';
 
-function test() {}
-
 function App() {
   return (
     <Router>
