@@ -16,32 +16,32 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route exact path="/">
+        <Route exact path='/'>
           <LandingPage />
         </Route>
         <Layout>
-          <Route path="/dashboard">
+          <Route path='/dashboard'>
             <DashboardPage />
           </Route>
-          <Route path="/cash-expenses">
+          <Route path='/cash-expenses'>
             <CashExpensesPage />
           </Route>
-          <Route path="/income">
+          <Route path='/income'>
             <IncomePage />
           </Route>
-          <Route path="/objectives">
+          <Route path='/objectives'>
             <ObjectivesPage />
           </Route>
-          <Route path="/statistics">
+          <Route path='/statistics'>
             <StatisticsPage />
           </Route>
-          <Route path="/piggy-bank">
+          <Route path='/piggy-bank'>
             <PiggyBankPage />
           </Route>
-          <Route path="/reminders">
+          <Route path='/reminders'>
             <RemindersPage />
           </Route>
-          <Route path="/settings">
+          <Route path='/settings'>
             <SettingsPage />
           </Route>
         </Layout>

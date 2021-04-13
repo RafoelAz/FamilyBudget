@@ -8,10 +8,10 @@ export function Layout(props) {
     <>
       <Header />
 
-      <div className="container-fluid">
-        <div className="row">
+      <div className='container-fluid'>
+        <div className='row'>
           <Nav />
-          <main className="col-md-9 col-lg-10">{props.children}</main>
+          <main className='col-md-9 col-lg-10'>{props.children}</main>
         </div>
       </div>
     </>
